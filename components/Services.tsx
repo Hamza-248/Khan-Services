@@ -68,8 +68,8 @@ const servicesData = [
     subtitle: 'Cool Comfort',
     description: 'AC cleaning, gas filling, and master service.',
     iconName: 'Wind',
-    // Fixed: Working Split AC image
-    image: 'https://images.unsplash.com/photo-1621250327663-71887e494f6f?q=80&w=800&auto=format&fit=crop', 
+    // Updated image as per user request
+    image: 'https://images.unsplash.com/photo-1667983453881-4992fe86ab1b?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', 
     colSpan: 'md:col-span-2',
     rowSpan: 'md:row-span-1',
     gradient: 'from-teal-500 to-emerald-500',

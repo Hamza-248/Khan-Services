@@ -9,20 +9,20 @@ export const LocationSection: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto bg-white rounded-3xl p-2 shadow-xl border border-slate-200 overflow-hidden">
           <div className="relative h-64 md:h-80 w-full rounded-2xl overflow-hidden group">
-            {/* Using a static map image as a placeholder since we can't iframe the short link directly without API/Coords */}
+            {/* Representative image of Lahore (Badshahi Mosque) to give local context */}
             <img 
-              src="https://images.unsplash.com/photo-1569336415962-a4bd9f69cd83?q=80&w=1200&auto=format&fit=crop" 
-              alt="Khan Services Location Map" 
-              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 filter brightness-75 group-hover:brightness-100"
+              src="https://images.unsplash.com/photo-1622546683884-69970c64c51f?q=80&w=1200&auto=format&fit=crop" 
+              alt="Khan Services Location in Lahore" 
+              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 filter brightness-90 group-hover:brightness-100"
             />
             
-            <div className="absolute inset-0 flex flex-col items-center justify-center p-6 bg-slate-900/30 group-hover:bg-slate-900/10 transition-colors">
+            <div className="absolute inset-0 flex flex-col items-center justify-center p-6 bg-slate-900/40 group-hover:bg-slate-900/20 transition-colors">
                <div className="bg-white/95 backdrop-blur-md p-6 rounded-2xl shadow-2xl text-center max-w-sm transform transition-transform duration-300 group-hover:-translate-y-2">
                   <div className="w-12 h-12 bg-pink-100 text-pink-600 rounded-full flex items-center justify-center mx-auto mb-4">
                     <MapPin size={24} fill="currentColor" />
                   </div>
-                  <h3 className="text-xl font-bold text-slate-900 mb-2">Visit Our Office</h3>
-                  <p className="text-slate-500 text-sm mb-6">Click below to find us on Google Maps and get directions to Khan Services.</p>
+                  <h3 className="text-xl font-bold text-slate-900 mb-2">Visit Us in Lahore</h3>
+                  <p className="text-slate-500 text-sm mb-6">Serving all major areas including DHA, Bahria Town, Gulberg, and Johar Town.</p>
                   
                   <button 
                     onClick={() => window.open(mapUrl, '_blank')}
