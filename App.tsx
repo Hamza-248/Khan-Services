@@ -2,7 +2,6 @@ import React from 'react';
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { Services } from './components/Services';
-import { SmartQuote } from './components/SmartQuote';
 import { Reviews } from './components/Reviews';
 import { LocationSection } from './components/LocationSection';
 import { Footer } from './components/Footer';
@@ -14,7 +13,6 @@ function App() {
       <Header />
       <main>
         <Hero />
-        <SmartQuote />
         <Services />
         <Reviews />
         <LocationSection />

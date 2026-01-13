@@ -141,6 +141,26 @@ const servicesData = [
       commonIssues: ['Low power generation', 'Dust accumulation', 'Inverter error codes', 'Loose connections'],
       complexity: 'Medium'
     }
+  },
+  {
+    id: '8',
+    title: 'Custom Request',
+    subtitle: 'Everything Else',
+    description: "Don't see what you need? Let's discuss your unique requirements.",
+    iconName: 'MessageSquare',
+    // Discussion / Planning
+    image: 'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=1000&auto=format&fit=crop', 
+    colSpan: 'md:col-span-4',
+    rowSpan: 'md:row-span-1',
+    gradient: 'from-slate-600 to-slate-800',
+    iconColor: 'text-slate-700',
+    details: {
+      scope: ['Custom projects', 'Unlisted repairs', 'Consultations', 'Sourcing parts'],
+      duration: 'Flexible',
+      tools: 'As required',
+      commonIssues: ['Specific needs', 'Unique installations', 'Complex problems'],
+      complexity: 'Custom'
+    }
   }
 ];
 
